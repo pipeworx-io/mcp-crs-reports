@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-crs-reports",
   "version": "0.1.0",
-  "description": "Congressional Research Service reports — the analysis Congress writes for",
+  "description": "Congressional Research Service reports — Congress's own nonpartisan analysis of statutes, federal programmes and policy options, searchable by subject and readable in full, with authority, citations, licence and age stated on every response",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
