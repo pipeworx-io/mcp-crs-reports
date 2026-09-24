@@ -875,8 +875,10 @@ function withAuthorityEnvelope(
   };
 }
 /**
- * Congressional Research Service reports — the analysis Congress writes for
- * itself, full text and all. Fleet #1975.
+ * Congressional Research Service reports — Congress's own nonpartisan analysis, searchable and readable in full.
+ *
+ * (Line 2 above is what scripts/publish-pack.sh and registry-batch.sh publish
+ * as the package description — keep it one complete line. Fleet #1975, #2012.)
  *
  * WHAT CRS IS, because it decides how these answers should be read. CRS is
  * Congress's in-house, nonpartisan research arm. Its reports explain what a

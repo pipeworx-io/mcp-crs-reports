@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/crs-reports",
-  "title": "CRS Reports",
-  "description": "Congressional Research Service reports — Congress's own nonpartisan analysis of statutes, federal…",
-  "version": "0.1.0",
+  "title": "Crs Reports",
+  "description": "Congressional Research Service reports — Congress's own nonpartisan analysis, searchable and…",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/crs-reports",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-crs-reports",
