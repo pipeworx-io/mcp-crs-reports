@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-crs-reports",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Congressional Research Service reports — Congress's own nonpartisan analysis, searchable and readable in full.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-crs-reports": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "crs-reports"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-crs-reports.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/crs-reports",
   "pipeworx": {
-    "sourceHash": "v1-47edba447ce906fd87d063353daa91213e7590be77cc59261d3b890e7c735261",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "mode": "gateway",
+    "slug": "crs-reports",
+    "gatewaySlug": "crs-reports",
+    "sourceHash": "v1-721f375a17c08d4f8aaee48b00ab05019efb820ca2fbbb858a8edab4cb691219",
+    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
   }
 }
